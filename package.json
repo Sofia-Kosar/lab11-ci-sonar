@@ -1,0 +1,14 @@
+{
+  "name": "lab11-ci-sonar",
+  "version": "1.0.0",
+  "description": "Lab 11: GitHub + Jenkins + SonarQube + PostgreSQL",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node -c src/index.js && node -c src/sum.js && echo Build OK",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
